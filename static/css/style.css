@@ -14,7 +14,7 @@ body {
 }
 
 .thin {
-    font-weight: 300;
+    font-weight:300;
 }
 
 .light-bg {
@@ -93,7 +93,7 @@ body {
 
 .post-link:hover,
 .page-link {
-    color: #E84610;
+    color: #897B70;
 }
 
 .post-title {
