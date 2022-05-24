@@ -1,25 +1,22 @@
 {% extends "base.html" %}
 
 {% load i18n %}
-{% load account socialaccount %}
+<!-- {% load account socialaccount %} -->
 
 {% block head_title %}{% trans "Sign In" %}{% endblock %}
 
 {% block content %}
 <!-- Bootstrap -->
-<div class="container">
+<div class="container signin mt-3 mx-auto">
   <div class="row">
     <div class="col-md-8 mt3 offset-md-2">
-        <h3>{% trans "Sign In" %}</h3>
+        <h2>{% trans "Sign In" %}</h2>
 
-
-<p>{% blocktrans %}Welcome to my Travel Blog page.
+ <p>{% blocktrans %}Welcome to my Travel Blog page.
   To leave a comment or like a post , please log in.
   If you have not created an account yet, then
   <a class="link" href="{{ signup_url }}">sign up</a> first.{% endblocktrans %}</p>
 
-  </div>
-</div>
 </div class="row">
    <div class="col-md-8 mt-3 offset-md-2">
 
@@ -31,6 +28,7 @@
     {% endif %}
     <button class="btn btn-signup right" type="submit">{% trans "Sign In" %}</button>
   </form>
+   </div>
   </div>
 </div>
 
