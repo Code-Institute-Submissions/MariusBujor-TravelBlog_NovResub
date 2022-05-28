@@ -178,14 +178,15 @@ body {
     color:#897B70
 }
 .navbar-light .navbar-nav .nav-link:focus, .navbar-light .navbar-nav .nav-link:hover {
+    font-size:17px;
     color:aqua;
 }
 
 .social-networks a {
-    font-size:20px;
+    font-size:17px;
     color:#EEF0F4;
 }
 .social-networks a:hover {
-    font-size:25px;
+    font-size:20px;
     color:aqua;
 }
