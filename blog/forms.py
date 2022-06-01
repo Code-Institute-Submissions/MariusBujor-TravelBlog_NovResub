@@ -11,8 +11,8 @@ class CommentForm(forms.ModelForm):
 """ Form adding Post"""
 
 
-class BlogForm (forms.ModelForm):
-    class Meta: 
-        model = Post
-        fields = ('title', 'slug', 'content', 'featured_image', 'excerpt',)
+# class BlogForm (forms.ModelForm):
+#     class Meta: 
+#         model = Post
+#         fields = ('title', 'slug', 'content', 'featured_image', 'excerpt',)
         
