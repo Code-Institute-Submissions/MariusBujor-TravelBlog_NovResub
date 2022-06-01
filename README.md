@@ -4,6 +4,8 @@
   - [Introduction](#introduction)
   - [UX](#ux)
     - [User Stories](#user-stories)
+    - [Strategy](#strategy)
+    - [Scope](#scope)
     
 
 **[LIVE DEMO - Click & Play ](https://8000-mariusbujor-travelblog-6fyxazwdtxn.ws-eu46.gitpod.io/)**
@@ -37,6 +39,19 @@
   - As a User/Admin I can :
     - read conversations and view comments on individual post
     - view the number of likes on individual post and see which is the most popular
+  
+
+  ### Strategy 
+
+  This is a website where users that love to travel can share photos and stories : 
+
+  - users that want to travel
+  - users that traveld already
+  
+  ### Scope 
+
+  The website provides for the user an easy navigation , photos and content with regards to location from the photos.
+
   
      
 

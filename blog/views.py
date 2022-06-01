@@ -102,17 +102,22 @@ def form_valid(self, form):
     # Updating or Editing Post
 
 
-# class UpdatePostView(LoginRequiredMixin, SuccessMessageMixin, UpdateView):
+class UpdatePostView(LoginRequiredMixin, SuccessMessageMixin, UpdateView):
 
-#     model = Post
-#     template_name = "add_post.html"
-#     fields = ['title', 'content', 'featured_image', 'excerpt']
-#     success_url = reverse_lazy('home')
-#     success_message = ("Your Post has been updated")
+    model = Post
+    template_name = "add_post.html"
+    fields = ['title', 'content', 'featured_image', 'excerpt']
+    success_url = reverse_lazy('home')
+    success_message = ("Your Post has been updated")
 
 
-# def form_valid(self, form):
-#     form.instance.author = self.request.user
-#     return super().form_valid(form)    
-    
+def form_valid(self, form):
+    form.instance.author = self.request.user
+    return super().form_valid(form)
 
+
+def test_func(self):
+    post = self.get_object()
+    if self.request.user == post.author:
+        return True
+    return False
