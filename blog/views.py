@@ -1,8 +1,12 @@
 from django.shortcuts import render, get_object_or_404, reverse
-from django.views import generic, View
+from django.contrib.auth.mixins import LoginRequiredMixin
+from django.contrib.messages.views import SuccessMessageMixin
+from django.urls import reverse_lazy
+from django.views import generic, View 
 from django.http import HttpResponseRedirect
 from .models import Post
 from .forms import CommentForm
+from django.views.generic import CreateView
 
 
 class PostList(generic.ListView):
@@ -76,3 +80,20 @@ class PostLike(View):
             post.likes.add(request.user)
 
         return HttpResponseRedirect(reverse('post_detail', args=[slug]))
+
+# Add Post
+        
+class CreatePostView(LoginRequiredMixin, SuccessMessageMixin, CreateView):
+    """ If user is logged can create a new post """
+
+    model = Post
+    template_name = "add_post.html"
+    fields = ['title', 'content', 'featured_image', 'excerpt']
+    success_url = reverse_lazy('home')
+    success_message = ("New post has been created - Waiting for approval")
+
+    def form_valid(self, form):
+         form.instance.author = self.request.user
+         return super().form_valid(form)
+
+    # return render(request, template, context)
