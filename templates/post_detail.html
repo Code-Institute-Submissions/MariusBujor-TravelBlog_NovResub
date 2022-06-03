@@ -32,7 +32,7 @@
                     {{ post.content | safe }}
                 </p>
                 <a href="{% url 'post-update' post.slug %}" class="btn btn-primary"> Update </a>
-                <a href="{% url 'post-delete' post.slug %}" class="btn btn-primary"> Delete </a>
+                <a href="{% url 'post-delete' post.slug %}" class="btn btn-danger"> Delete </a>
                 <div class="row">
 
                     <div class="col-1">

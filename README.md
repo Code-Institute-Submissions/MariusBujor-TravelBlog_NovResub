@@ -6,6 +6,19 @@
     - [User Stories](#user-stories)
     - [Strategy](#strategy)
     - [Scope](#scope)
+    - [Features](#features)
+    - [Structure](#structure)
+    - [Skeleton](#skeleton)
+      - [Balsamic](#balsamic)
+      - [Technology Used](#technology-used)
+    - [Testing](#testing)
+      - [Functionality Testing](#functionality-testing)
+    - [Bugs found on PEP8](#bugs-found-on-pep8)
+    - [Deployment](#deployment)
+    - [Credits](#credits)
+      - [Media](#media)
+      - [Code](#code)
+
     
 
 **[LIVE DEMO - Click & Play ](https://8000-mariusbujor-travelblog-6fyxazwdtxn.ws-eu46.gitpod.io/)**
@@ -51,6 +64,47 @@
   ### Scope 
 
   The website provides for the user an easy navigation , photos and content with regards to location from the photos.
+
+  ### Features
+  
+  [Hompage - photo 1](screenshot/home_page1.PNG)
+
+  [Hompage - photo 2](screenshot/home_page2.PNG)
+
+  [Navbar Logged Out - photo ](screenshot/navbar_1.PNG)
+
+  [Navbar Logged In - photo ](screenshot/navbar_2.PNG)
+
+  [Sign In - photo ](screenshot/sign_in.PNG)
+
+  [Sign Out - photo ](screenshot/sign_out.PNG)
+
+  [Blog Cards - photo ](screenshot/blog_cards.PNG)
+
+  [Register as user - photo ](screenshot/register.PNG)
+
+  [Upload new post - photo ](screenshot/new_post.PNG)
+
+  [Update a post - photo ](screenshot/update_post.PNG)
+
+  [Comments section- photo ](screenshot/comments.PNG)
+
+  [Admin page - photo ](screenshot/admin.PNG)
+  
+  [Footer - photo ](screenshot/footer.)
+  ### Structure
+  ### Skeleton
+  #### Balsamic
+  #### Technology Used 
+  ### Testing
+  #### Functionality Testing 
+  ### Bugs found on PEP8
+  ### Deployment
+  ### Credits
+  #### Media
+  #### Code
+
+
 
   
      
