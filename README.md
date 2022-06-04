@@ -7,6 +7,18 @@
     - [Strategy](#strategy)
     - [Scope](#scope)
     - [Features](#features)
+      - [Existing Features](#existing-features)
+      - [Homepage](#homepage)
+      - [Navbar](#navbar)
+      - [Login](#login)
+      - [Logout](#logout)
+      - [Posts](#posts)
+      - [Register as a user](#register-as-a-user)
+      - [Upload New post](#upload-new-post)
+      - [Update a post](#update-a-post)
+      - [Comments](#comments)
+      - [Site Admin Panel](#site-admin-panel)
+      - [Footer](#footer)
     - [Structure](#structure)
     - [Skeleton](#skeleton)
       - [Balsamic](#balsamic)
@@ -67,31 +79,86 @@
 
   ### Features
   
+  #### Existing Features
+
+
+  #### Homepage 
+
+  - Hompage displays the Navbar and logo, posts with description and footer with social network links.
+  
   [Hompage - photo 1](screenshot/home_page1.PNG)
 
   [Hompage - photo 2](screenshot/home_page2.PNG)
 
+  #### Navbar
+
+  - In loading mode Navar displays : Home, Register and Login
+
   [Navbar Logged Out - photo ](screenshot/navbar_1.PNG)
+
+  - In user logged mode Navar displays : Home, Logou and Add Post
 
   [Navbar Logged In - photo ](screenshot/navbar_2.PNG)
 
+  #### Login
+
+  - When a user presse the Login link a new section will apear at the bottom of the page where he can insert his  account details.
+  
   [Sign In - photo ](screenshot/sign_in.PNG)
+
+  #### Logout
+
+  - When a user presse the Logout link a new section will apear at the bottom of the page where he is asked to confirm his action by pressing the Sign Out button .
 
   [Sign Out - photo ](screenshot/sign_out.PNG)
 
+  #### Posts
+
+  - There are 6 post with short content  displayed on the home page 
+  - When users are adding more posts a new page will be available by pressin the Next button at the bottom of the page.
+
   [Blog Cards - photo ](screenshot/blog_cards.PNG)
+
+  #### Register as a user
+
+  - When a user presses the Register link a new section will apear at the bottom of the page where is asked to introduce their ditails.
 
   [Register as user - photo ](screenshot/register.PNG)
 
+  #### Upload New post
+
+  - When a user decide to upload a new post with content and press the New post link a a new section will apear at the bottom of the page where is asked to introduce the conntent , to upload a photo and press the New Post button to send the post to be apprved by the admin.
+
   [Upload new post - photo ](screenshot/new_post.PNG)
+
+  #### Update a post
+
+- When a user decide to update a post uploaded by himself and press the choosen post a new  page will apear where is asked to choose to update or delete the post.
 
   [Update a post - photo ](screenshot/update_post.PNG)
 
-  [Comments section- photo ](screenshot/comments.PNG)
+  #### Comments
+
+  When a user decide to comment a post and press the choosen post a new page will apear where has only the option to add a comment to the post.
+
+  [Comments section - photo ](screenshot/comments.PNG)
+
+  #### Site Admin Panel
+
+  - As a site Admin : 
+    - I can aprrove or dissaprove comments or post.
+    - I can create drafts and continue to add content later to the posts
+    - I can edit and make changes to posts
 
   [Admin page - photo ](screenshot/admin.PNG)
+
+  #### Footer
+
+  - The footer shows the social network links and Copy Rights 
   
   [Footer - photo ](screenshot/footer.)
+
+
   ### Structure
   ### Skeleton
   #### Balsamic
