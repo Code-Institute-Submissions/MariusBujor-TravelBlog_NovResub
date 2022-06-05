@@ -183,10 +183,27 @@
   
   #### Frameworks, Libraries & Programs Used
 
-  - Balsamiq was used to create the wireframes
-  - Bootstrap was used to contribute to responsiveness and styling of the site
-  - Tiny JPG was used to compress images before uploading
-  - 
+  - [Balsamiq](https://balsamiq.cloud/) - Was used to create the wireframes
+  - [Bootstrap] (https://getbootstrap.com/) - Was used to contribute to responsiveness and styling of the site
+  - [TinyJPG](https://tinyjpg.com/) - Was used to compress images before uploading
+  - [GitHub](https://github.com/) - Holds the repository of my project, GitHub connects to GitPod and Heroku
+  - [GitPod](https://gitpod.io/) - Connected to GitHub, GitPod hosted the coding space,
+   allowing the project to be built and then committed to the GitHub repository.
+  - [Heroku](https://heroku.com/) - Connected to the GitHub repository, Heroku is a cloud application platform used 
+   to deploy this project so the backend language can be utilised/tested.
+  - [Django](https://www.djangoproject.com/) - This framework was used to build the foundations of this project
+  - [Gunicorn](https://gunicorn.org/) - Gunicorn is a pure-Python HTTP server for WSGI applications.
+  - [DjDatabaseURL](https://pypi.org/project/dj-database-url/) - This allows you to utilize the 12factor inspired DATABASE_URL 
+   environment variable to configure your Django application.
+  - [Cloudinary](https://cloudinary.com/) - Used to store images online for the recipe posts.
+  - [Summernote](https://summernote.org/) - Used to add a text area field to the admin setup to enable 
+   a list of ingredients and method steps.
+  - [GoogleFonts](https://fonts.google.com/) - Provide fonts for the website.
+  - [FontAwesome](https://fontawesome.com/) - Was used for icons.
+  - [AmIResponsive](https://ui.dev/amiresponsive) - To check if the site is responsive on different screen sizes.
+  - [Pixabay](https://pixabay.com/) and [Pexel](https://www.pexels.com/) - Were used for all the images.
+  - [W3CMarkupValidator](https://jigsaw.w3.org/) - Was used to validate HTML.
+  - [Coolors](https://coolors.co/) - To make color palette
 
 
   ### Testing
