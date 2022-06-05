@@ -25,12 +25,14 @@
       - [Mobile](#mobile)
       - [Desktop](#desktop)
       - [Technology Used](#technology-used)
-        - [Progamming Languages .....](#progamming-languages-)
+        - [Progamming Languages](#progamming-languages)
       - [Frameworks, Libraries \& Programs Used](#frameworks-libraries--programs-used)
     - [Testing](#testing)
-      - [Functionality Testing](#functionality-testing)
-    - [Bugs found on PEP8](#bugs-found-on-pep8)
+      - [Testing User Stories from User Experience (UX) Section](#testing-user-stories-from-user-experience-ux-section)
+      - [Functionality Testing ............](#functionality-testing-)
+    - [Bugs found on PEP8 ...........](#bugs-found-on-pep8-)
     - [Deployment](#deployment)
+      - [Deploy to Heroku](#deploy-to-heroku)
     - [Credits](#credits)
       - [Media](#media)
       - [Code](#code)
@@ -72,7 +74,7 @@
 
   ### Strategy 
 
-  - This is a website where users that love to travel can share photos and stories : 
+- This is a website where users that love to travel can share photos and stories : 
    - users that want to travel
    - users that traveld already
   
@@ -213,7 +215,7 @@
 
 
 
-  ##### Progamming Languages .....
+  ##### Progamming Languages 
 
   - Python
   - HTML
@@ -246,12 +248,54 @@
 
 
   ### Testing
-  #### Functionality Testing 
-  ### Bugs found on PEP8
+  - The project was manualy tested by falowing the steps :
+    - Code was runed trough the validator resulting no issues
+    - Deploying the project from gitpod workspace trough Heroku
+    - The site was also tested on I-Pad , I-Phone and Laptop.
+  
+  #### Testing User Stories from User Experience (UX) Section
+
+  - All user stories in the list [above](#user-stories) has been tested and confirmed after implementation.
+
+  #### Functionality Testing ............
+  ### Bugs found on PEP8 ...........
+
   ### Deployment
 
+  #### Deploy to Heroku 
 
+  - To deploy this page to Heroku from its GitHub repository, the following steps were taken:
+    - Start by installing everything in the requirements.txt file.
+    - You should have the corect requirements.txt and Procfile before moving on with the deployment.
+    - Log in to [Heroku apps](https://heroku.com/)
+    - On Heroku page go to dashboard then to the "New" menu and choose "Create new app"
+    - Create a unique name for your app , select your region and click "Create app".
+    - Now the new app's dashboard is opened. Click on the resources tab.
+    - Add the Heroku Postgres Add-on.
+    - Go to the settings tab and reveal the Config Vars and add :
+      - CLOUDINARY_URL
+      - DATABASE_URL
+      - SECRET_KEY
+    - Click on "Deploy" and select your deploy method and repository.
+    - Click "Connect" on selected repository
+    - Click "Deploy Branch" in the manual deploy section. -> Heroku will now deploy the App.
   
+   - Development Environment
+    - Create an env.py that contains these variables :
+      - os.environ["DATABASE_URL"] = "postgres://....."
+      - os.environ["SECRET_KEY"] = ".."
+      - os.environ["CLOUDINARY_CLOUD_NAME"] = ".."
+      - os.environ["CLOUDINARY_API_KEY"] = ".."
+      - os.environ["CLOUDINARY_API_SECRET"] = ".."
+      - os.environ["CLOUDINARY_URL"] = ".."
+      - os.environ["DEVELOPMENT"] = "True"
+    - Create requirements.txt by typing in terminal: 
+      - pip3 freeze --local > requirements.txt
+
+
+
+
+
   ### Credits
   #### Media
   #### Code
