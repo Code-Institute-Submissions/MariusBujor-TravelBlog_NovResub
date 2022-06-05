@@ -22,6 +22,8 @@
     - [Structure](#structure)
     - [Skeleton](#skeleton)
       - [Whireframes](#whireframes)
+      - [Mobile](#mobile)
+      - [Desktop](#desktop)
       - [Technology Used](#technology-used)
         - [Progamming Languages .....](#progamming-languages-)
       - [Frameworks, Libraries \& Programs Used](#frameworks-libraries--programs-used)
@@ -55,7 +57,7 @@
     - update my profile so that other users can view my details
     - create draft posts and writing the content later
     - make changes to the post by editing the post
-    - remove / delete a post if I want
+    - remove / delete my post if I want
     - remove / delete a comments from posts if I want
     - upload photos to my posts
   - As a site Admin I can : 
@@ -79,6 +81,7 @@
   - The website provides for the user an easy navigation , photos and content with regards to location from the photos.
 
   ### Features
+
   
   #### Existing Features
 
@@ -172,10 +175,46 @@
   - The project was developed from initial wireframes, and some modifications were made during the development process in response to user feedback.
 
   #### Whireframes
-  Photos.....
+
+  <details>
+
+  <summary>Click to see the Wireframes</summary>
+
+  #### Mobile
+
+
+  ![Mobile](wireframes/mobile_home.PNG)
+
+  ![Mobile](wireframes/mobile_newpost.PNG)
+
+  ![Mobile](wireframes/mobile_register.PNG)
+
+  ![Mobile](wireframes/mobile_signin.PNG)
+
+  ![Mobile](wireframes/mobile_signout.PNG)
+
+  #### Desktop
+
+  ![Desktop](wireframes/desk_signout.PNG)
+
+  ![Desktop](wireframes/desk_signin.PNG)
+
+  ![Desktop](wireframes/desk_register.PNG)
+
+  ![Desktop](wireframes/desk_hompage.PNG)
+  
+  ![Desktop](wireframes/desk_newpost.PNG)
+
+  </details>
+
+
+  
   #### Technology Used
 
+
+
   ##### Progamming Languages .....
+
   - Python
   - HTML
   - CSS
@@ -184,7 +223,7 @@
   #### Frameworks, Libraries & Programs Used
 
   - [Balsamiq](https://balsamiq.cloud/) - Was used to create the wireframes
-  - [Bootstrap] (https://getbootstrap.com/) - Was used to contribute to responsiveness and styling of the site
+  - [Bootstrap](https://getbootstrap.com/) - Was used to contribute to responsiveness and styling of the site
   - [TinyJPG](https://tinyjpg.com/) - Was used to compress images before uploading
   - [GitHub](https://github.com/) - Holds the repository of my project, GitHub connects to GitPod and Heroku
   - [GitPod](https://gitpod.io/) - Connected to GitHub, GitPod hosted the coding space,
@@ -210,6 +249,9 @@
   #### Functionality Testing 
   ### Bugs found on PEP8
   ### Deployment
+
+
+  
   ### Credits
   #### Media
   #### Code
