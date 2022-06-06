@@ -1,5 +1,4 @@
 # Table of Contents
-
 - [Table of Contents](#table-of-contents)
   - [Introduction](#introduction)
   - [UX](#ux)
@@ -7,19 +6,20 @@
     - [Strategy](#strategy)
     - [Scope](#scope)
     - [Features](#features)
-      - [Existing Features](#existing-features)
+      - [Existing Features (Photo Links)](#existing-features-photo-links)
       - [Homepage](#homepage)
       - [Navbar](#navbar)
       - [Login](#login)
       - [Logout](#logout)
       - [Posts](#posts)
-      - [Register as a user](#register-as-a-user)
-      - [Upload New post](#upload-new-post)
-      - [Update a post](#update-a-post)
+      - [Register as a User](#register-as-a-user)
+      - [Upload New Post](#upload-new-post)
+      - [Update a Post](#update-a-post)
       - [Comments](#comments)
       - [Site Admin Panel](#site-admin-panel)
       - [Footer](#footer)
     - [Structure](#structure)
+      - [Colour Palette](#colour-palette)
     - [Skeleton](#skeleton)
       - [Whireframes](#whireframes)
       - [Mobile](#mobile)
@@ -86,7 +86,7 @@
   ### Features
 
   
-  #### Existing Features
+  #### Existing Features (Photo Links)
 
 
   #### Homepage 
@@ -126,29 +126,29 @@
 
      [Blog Cards - photo ](screenshot/blog_cards.PNG)
 
-  #### Register as a user
+  #### Register as a User
 
   - When a user presses the Register link a new section will apear at the bottom of the page where is asked to introduce their ditails.
 
-     [Register as user - photo ](screenshot/register.PNG)
+     [Register as User - photo ](screenshot/register.PNG)
 
-  #### Upload New post
+  #### Upload New Post
 
   - When a user decide to upload a new post with content and press the New post link a a new section will apear at the bottom of the page where is asked to introduce the conntent , to upload a photo and press the New Post button to send the post to be apprved by the admin.
 
-     [Upload new post - photo ](screenshot/new_post.PNG)
+     [Upload New Post - photo ](screenshot/new_post.PNG)
 
-  #### Update a post
+  #### Update a Post
 
   - When a user decide to update a post uploaded by himself and press the choosen post a new  page will apear where is asked to choose to update or delete the post.
 
-     [Update a post - photo ](screenshot/update_post.PNG)
+     [Update a Post - photo ](screenshot/update_post.PNG)
 
   #### Comments
 
   - When a user decide to comment a post and press the choosen post a new page will apear where has only the option to add a comment to the post.
 
-     [Comments section - photo ](screenshot/comments.PNG)
+     [Comments Section - photo ](screenshot/comments.PNG)
 
   #### Site Admin Panel
 
@@ -157,7 +157,7 @@
     - I can create drafts and continue to add content later to the posts
     - I can edit and make changes to posts
 
-     [Admin page - photo ](screenshot/admin.PNG)
+     [Admin Page - photo ](screenshot/admin.PNG)
 
   #### Footer
 
@@ -172,6 +172,11 @@
   and  also have the posobility to access the links in the navbar
   - On small screens  a dropdown menu navigation will be available on all pages
   - The pages have a straightforword layout in place to ensure users can navigate easly.
+    
+  #### Colour Palette
+ -  [Abode Color]( https://color.adobe.com/search?q=897B70&t=hex) was used to extract the main colours fo the website:
+  
+    ![](screenshot/colors.PNG)
 
   ### Skeleton
   - Wireframes created with Balsamiq
@@ -269,6 +274,7 @@
   #### Deploy to Heroku 
 
   - To deploy this page to Heroku from its GitHub repository, the following steps were taken:
+  
     - Start by installing everything in the requirements.txt file.
     - You should have the corect requirements.txt and Procfile before moving on with the deployment.
     - Log in to [Heroku apps](https://heroku.com/)
@@ -285,6 +291,7 @@
     - Click "Deploy Branch" in the manual deploy section. -> Heroku will now deploy the App.
   
    - Development Environment
+  
     - Create an env.py that contains these variables :
       - os.environ["DATABASE_URL"] = "postgres://....."
       - os.environ["SECRET_KEY"] = ".."
@@ -293,7 +300,9 @@
       - os.environ["CLOUDINARY_API_SECRET"] = ".."
       - os.environ["CLOUDINARY_URL"] = ".."
       - os.environ["DEVELOPMENT"] = "True"
-    - Create requirements.txt by typing in terminal: 
+       
+  
+   - Create requirements.txt by typing in terminal :
       - pip3 freeze --local > requirements.txt
 
 
@@ -310,21 +319,21 @@
 
 - Images and video used were taken from :
 
-- [Logo](https://www.shutterstock.com/image-vector/travel-blog-logo-using-pen-plane-1515206072 )
+- [Logo - photo](https://www.shutterstock.com/image-vector/travel-blog-logo-using-pen-plane-1515206072 )
   
 - [Video by Taryn Elliott](https://www.pexels.com/video/a-view-of-hot-air-balloons-in-the-air-and-woman-riding-her-vehicle-3015510/)
   
-- [Barcelona by Aleksandar Pasaric](https://www.pexels.com/photo/aerial-photography-of-high-rise-buildings-1386444/)
+- [Barcelona - photo by Aleksandar Pasaric](https://www.pexels.com/photo/aerial-photography-of-high-rise-buildings-1386444/)
   
-- [Dublin Temple Bar by Leonhard_Niederwimmer](https://pixabay.com/photos/ireland-dublin-temple-bar-pub-beer-4945565/)
+- [Dublin Temple Bar - photo by Leonhard_Niederwimmer](https://pixabay.com/photos/ireland-dublin-temple-bar-pub-beer-4945565/)
  
-- [Cluj Napoca by randyjournalism ](https://pixabay.com/photos/cluj-romania-city-transylvania-2981769/)
+- [Cluj Napoca - photo by randyjournalism ](https://pixabay.com/photos/cluj-romania-city-transylvania-2981769/)
 
-- [Phuket by Michelle_Raponi](https://pixabay.com/photos/thailand-phuket-koh-phi-phi-1451382/)
+- [Phuket - photo by Michelle_Raponi](https://pixabay.com/photos/thailand-phuket-koh-phi-phi-1451382/)
   
-- [Santorini by tghurd](https://pixabay.com/photos/santorini-greece-ocean-town-coast-4825173/)
+- [Santorini - photo by tghurd](https://pixabay.com/photos/santorini-greece-ocean-town-coast-4825173/)
   
-- [Maldives by FonthipWard](https://pixabay.com/photos/maldives-coconut-tree-sea-resort-262516/)
+- [Maldives - photo by FonthipWard](https://pixabay.com/photos/maldives-coconut-tree-sea-resort-262516/)
 
 - All images have been resized and compressed in order to boost the UX flow.
 
