@@ -35,6 +35,7 @@
       - [Deploy to Heroku](#deploy-to-heroku)
     - [Credits](#credits)
       - [Media](#media)
+      - [Images, Logo and Video](#images-logo-and-video)
       - [Code](#code)
 
     
@@ -213,8 +214,6 @@
   
   #### Technology Used
 
-
-
   ##### Progamming Languages 
 
   - Python
@@ -257,8 +256,13 @@
 
   - All user stories in the list [above](#user-stories) has been tested and confirmed after implementation.
 
+
+
   #### Functionality Testing ............
   ### Bugs found on PEP8 ...........
+
+
+
 
   ### Deployment
 
@@ -297,7 +301,34 @@
 
 
   ### Credits
+
+
+
   #### Media
+
+  #### Images, Logo and Video
+
+- Images and video used were taken from :
+
+- [Logo](https://www.shutterstock.com/image-vector/travel-blog-logo-using-pen-plane-1515206072 )
+  
+- [Video by Taryn Elliott](https://www.pexels.com/video/a-view-of-hot-air-balloons-in-the-air-and-woman-riding-her-vehicle-3015510/)
+  
+- [Barcelona by Aleksandar Pasaric](https://www.pexels.com/photo/aerial-photography-of-high-rise-buildings-1386444/)
+  
+- [Dublin Temple Bar by Leonhard_Niederwimmer](https://pixabay.com/photos/ireland-dublin-temple-bar-pub-beer-4945565/)
+ 
+- [Cluj Napoca by randyjournalism ](https://pixabay.com/photos/cluj-romania-city-transylvania-2981769/)
+
+- [Phuket by Michelle_Raponi](https://pixabay.com/photos/thailand-phuket-koh-phi-phi-1451382/)
+  
+- [Santorini by tghurd](https://pixabay.com/photos/santorini-greece-ocean-town-coast-4825173/)
+  
+- [Maldives by FonthipWard](https://pixabay.com/photos/maldives-coconut-tree-sea-resort-262516/)
+
+- All images have been resized and compressed in order to boost the UX flow.
+
+  
   #### Code
 
 
