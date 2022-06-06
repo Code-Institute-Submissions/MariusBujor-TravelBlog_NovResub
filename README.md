@@ -55,7 +55,7 @@
     - be involved in the conversation when I leave comments on posts
     - read full text when I am pressing on post
     - select one post from the list with all posts
-    - unlike or like a post and intereact with the 
+    - unlike or like a post and intereact with the post 
     - view a paginated list of posts so that easily select a post to view
     - update my profile so that other users can view my details
     - create draft posts and writing the content later
