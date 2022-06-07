@@ -21,11 +21,11 @@
     - [Structure](#structure)
       - [Colour Palette](#colour-palette)
     - [Skeleton](#skeleton)
-      - [Whireframes](#whireframes)
+      - [Wireframes](#wireframes)
       - [Mobile](#mobile)
       - [Desktop](#desktop)
       - [Technology Used](#technology-used)
-        - [Progamming Languages](#progamming-languages)
+        - [Programming Languages](#programming-languages)
       - [Frameworks, Libraries \& Programs Used](#frameworks-libraries--programs-used)
     - [Testing](#testing)
       - [Testing User Stories from User Experience (UX) Section](#testing-user-stories-from-user-experience-ux-section)
@@ -55,7 +55,7 @@
     - be involved in the conversation when I leave comments on posts
     - read full text when I am pressing on post
     - select one post from the list with all posts
-    - unlike or like a post and intereact with the post 
+    - unlike or like a post and interact with the post 
     - view a paginated list of posts so that easily select a post to view
     - update my profile so that other users can view my details
     - create draft posts and writing the content later
@@ -77,7 +77,7 @@
 
 - This is a website where users that love to travel can share photos and stories : 
    - users that want to travel
-   - users that traveld already
+   - users that travelled already
   
   ### Scope 
 
@@ -103,57 +103,57 @@
 
      [Navbar Logged Out - photo ](screenshot/navbar_1.PNG)
 
-  - In user logged mode Navar displays : Home, Logou and Add Post
+  - In user logged mode Navar displays : Home, Logout and Add Post
 
      [Navbar Logged In - photo ](screenshot/navbar_2.PNG)
 
   #### Login
 
-  - When a user presse the Login link a new section will apear at the bottom of the page where he can insert his  account details.
+  - When a user presses the Login link a new section will apear at the bottom of the page where he can insert his  account details.
   
-     [Sign In - photo ](screenshot/sign_in.PNG)
+     [Login - photo ](screenshot/sign_in.PNG)
 
   #### Logout
 
-  - When a user presse the Logout link a new section will apear at the bottom of the page where he is asked to confirm his action by pressing the Sign Out button .
+  - When a user presses the Logout link a new section will apear at the bottom of the page where he is asked to confirm his action by pressing the Sign Out button .
 
-     [Sign Out - photo ](screenshot/sign_out.PNG)
+     [Logout - photo ](screenshot/sign_out.PNG)
 
   #### Posts
 
   - There are 6 post with short content  displayed on the home page 
-  - When users are adding more posts a new page will be available by pressin the Next button at the bottom of the page.
+  - When users are adding more posts a new page will be available by pressing the Next button at the bottom of the page.
 
      [Blog Cards - photo ](screenshot/blog_cards.PNG)
 
   #### Register as a User
 
-  - When a user presses the Register link a new section will apear at the bottom of the page where is asked to introduce their ditails.
+  - When a user presses the Register link a new section will appear at the bottom of the page where is asked to introduce their ditails.
 
      [Register as User - photo ](screenshot/register.PNG)
 
   #### Upload New Post
 
-  - When a user decide to upload a new post with content and press the New post link a a new section will apear at the bottom of the page where is asked to introduce the conntent , to upload a photo and press the New Post button to send the post to be apprved by the admin.
+  - When a user decide to upload a new post with content and press the New post link a a new section will appear at the bottom of the page where is asked to introduce the content , to upload a photo and press the New Post button to send the post to be approved by the admin.
 
      [Upload New Post - photo ](screenshot/new_post.PNG)
 
   #### Update a Post
 
-  - When a user decide to update a post uploaded by himself and press the choosen post a new  page will apear where is asked to choose to update or delete the post.
+  - When a user decide to update a post uploaded by himself and press the chosen post a new page will appear where is asked to choose to update or delete the post.
 
      [Update a Post - photo ](screenshot/update_post.PNG)
 
   #### Comments
 
-  - When a user decide to comment a post and press the choosen post a new page will apear where has only the option to add a comment to the post.
+  - When a user decide to comment a post and press the chosen post a new page will appear where has only the option to add a comment to the post.
 
      [Comments Section - photo ](screenshot/comments.PNG)
 
   #### Site Admin Panel
 
   - As a site Admin : 
-    - I can aprrove or dissaprove comments or post.
+    - I can approve or dissapprove comments or post.
     - I can create drafts and continue to add content later to the posts
     - I can edit and make changes to posts
 
@@ -169,12 +169,12 @@
   ### Structure
 
   - Navbar is fixed on top to facilitate users to scroll the page 
-  and  also have the posobility to access the links in the navbar
+  and  also have the possibility to access the links in the navbar
   - On small screens  a dropdown menu navigation will be available on all pages
-  - The pages have a straightforword layout in place to ensure users can navigate easly.
+  - The pages have a straightforward layout in place to ensure users can navigate easily.
     
   #### Colour Palette
- -  [Abode Color]( https://color.adobe.com/search?q=897B70&t=hex) was used to extract the main colours fo the website:
+ -  [Abode Color]( https://color.adobe.com/search?q=897B70&t=hex) was used to extract the main colours for the website:
   
     ![](screenshot/colors.PNG)
 
@@ -182,7 +182,7 @@
   - Wireframes created with Balsamiq
   - The project was developed from initial wireframes, and some modifications were made during the development process in response to user feedback.
 
-  #### Whireframes
+  #### Wireframes
 
   <details>
 
@@ -219,7 +219,7 @@
   
   #### Technology Used
 
-  ##### Progamming Languages 
+  ##### Programming Languages 
 
   - Python
   - HTML
@@ -252,8 +252,8 @@
 
 
   ### Testing
-  - The project was manualy tested by falowing the steps :
-    - Code was runed trough the validator resulting no issues
+  - The project was manually tested by fallowing the steps :
+    - Code was run trough the validator resulting no issues
     - Deploying the project from gitpod workspace trough Heroku
     - The site was also tested on I-Pad , I-Phone and Laptop.
   
