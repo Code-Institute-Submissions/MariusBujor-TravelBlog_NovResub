@@ -5,9 +5,12 @@
 <!-- Background Video -->
 <section>
     <div>
-        <video autoplay muted loop src="https://res.cloudinary.com/mariuscloud/video/upload/v1652302364/media/video_edzkvc.mp4" width=100% ></video>
-     <h1 class="header">Attractions of the World !!!</h1>
-     <p class ="header">Do you have a  special story that you want to share? <br>Please feel free to create your own post.<br> Thank you!
+        <video autoplay muted loop
+            src="https://res.cloudinary.com/mariuscloud/video/upload/v1652302364/media/video_edzkvc.mp4"
+            width=100%></video>
+        <h1 class="header">Attractions of the World !!!</h1>
+        <p class="header">Do you have a special story that you want to share? <br>Please feel free to create your own
+            post.<br> Thank you!
 </section>
 
 <div class="container-fluid">
@@ -17,30 +20,7 @@
         <div class="col-12 mt-3 left">
             <div class="row">
                 {% for post in post_list %}
-                <div class="col-md-4">
-                    <div class="card mb-4">
-                        <div class="card-body">
-                            <div class="image-container">
-                                {% if "placeholder" in post.featured_image.url %}
-                                <img class="card-img-top"
-                                    src="https://res.cloudinary.com/mariuscloud/image/upload/v1652890490/media/Barcelona_klcizi.jpg" alt="placeholder image">
-                                {% else %}
-                                <img class="card-img-top" src=" {{ post.featured_image.url }}" alt="imige of {{ post.title }} ">
-                                {% endif %}
-                                <div class="image-flash">
-                                    <p class="author">Author: {{ post.author }}</p>
-                                </div>
-                            </div>
-                            <a href="{% url 'post_detail' post.slug  %}" class="post-link">
-                                <h2 class="card-title">{{ post.title }}</h2>
-                                <p class="card-text">{{ post.excerpt }}</p>
-                            </a>
-                            <hr />
-                            <p class="card-text text-muted h6">{{ post.created_on}} <i class="far fa-heart"></i>
-                                {{ post.number_of_likes }}</p>
-                        </div>
-                    </div>
-                </div>
+               {% include 'components/card.html' %}
                 {% if forloop.counter|divisibleby:3 %}
             </div>
             <div class="row">
