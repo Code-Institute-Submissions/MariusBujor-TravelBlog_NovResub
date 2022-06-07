@@ -311,8 +311,11 @@
 
   ### Credits
 
-
-
+ - [Code Institute](https://codeinstitute.net/ie/) - 'I think therefore I blog' project helped me with the fundation of the website
+ - Icons were taken from Font Awesome
+ - Images and video where taken from Pexel and Pixbay
+ - Informational text was taken from Google
+  
   #### Media
 
   #### Images, Logo and Video
