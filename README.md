@@ -29,8 +29,8 @@
       - [Frameworks, Libraries \& Programs Used](#frameworks-libraries--programs-used)
     - [Testing](#testing)
       - [Testing User Stories from User Experience (UX) Section](#testing-user-stories-from-user-experience-ux-section)
-      - [Functionality Testing ............](#functionality-testing-)
-    - [Bugs found on PEP8 ...........](#bugs-found-on-pep8-)
+      - [Functionality Testing](#functionality-testing)
+    - [Bugs found on PEP8](#bugs-found-on-pep8)
     - [Deployment](#deployment)
       - [Deploy to Heroku](#deploy-to-heroku)
     - [Credits](#credits)
@@ -260,11 +260,15 @@
   #### Testing User Stories from User Experience (UX) Section
 
   - All user stories in the list [above](#user-stories) has been tested and confirmed after implementation.
+  #### Functionality Testing 
 
+   - Lighthouse Accessability 
+  
+    ![](screenshot/accessibility.PNG)
 
+    
 
-  #### Functionality Testing ............
-  ### Bugs found on PEP8 ...........
+  ### Bugs found on PEP8 
 
 
 
