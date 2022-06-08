@@ -262,11 +262,28 @@
   - All user stories in the list [above](#user-stories) has been tested and confirmed after implementation.
   #### Functionality Testing 
 
-   - Lighthouse Accessability 
+   - Lighthouse 
   
   ![](screenshot/accessibility.PNG)
 
+  * HTML
+  
+    - No errors were returned when passing through the official [w3c html validator](https://validator.w3.org/).
+  
+  ![](screenshot/w3errors2.PNG)
+
+  * CSS
+  
+    - No errors were returned when passing through the official [w3c jigsaw validator](https://jigsaw.w3.org/css-validator/).
+  
+  ![](screenshot/css_validator.PNG)
+
+  * Accessability
+
+    - Accessibility was tested with both Chrome Lighthouse [a11y contrast checker](https://color.a11y.com/)  and no issues were found.
     
+   ![](screenshot/contrast.PNG)
+
 
   ### Bugs found on PEP8 
 
@@ -310,9 +327,6 @@
       - pip3 freeze --local > requirements.txt
 
 
-
-
-
   ### Credits
 
  - [Code Institute](https://codeinstitute.net/ie/) - 'I think therefore I blog' project helped me with the fundation of the website
@@ -345,7 +359,13 @@
 - All images have been resized and compressed in order to boost the UX flow.
 
   
-  #### Code
+#### Code
+
+  [I Think Therefore I Blog ](https://learn.codeinstitute.net/courses/course-v1:CodeInstitute+FST101+2021_T1/courseware/b31493372e764469823578613d11036b/fe4299adcd6743328183aab4e7ec5d13/) by Code Institute as a general resource.
+
+  [Codegrepper](https://www.codegrepper.com/code-examples/python/jinja+get+current+url+django) as a general resource.
+
+  [W3School](https://www.w3schools.com/) as a general resource.
 
 
 
