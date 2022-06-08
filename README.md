@@ -30,7 +30,7 @@
     - [Testing](#testing)
       - [Testing User Stories from User Experience (UX) Section](#testing-user-stories-from-user-experience-ux-section)
       - [Functionality Testing](#functionality-testing)
-    - [Bugs found on PEP8](#bugs-found-on-pep8)
+    - [Bugs found on PEP8 .............](#bugs-found-on-pep8-)
     - [Deployment](#deployment)
       - [Deploy to Heroku](#deploy-to-heroku)
     - [Credits](#credits)
@@ -40,9 +40,9 @@
 
     
 
-**[LIVE DEMO - Click & Play ](https://8000-mariusbujor-travelblog-6fyxazwdtxn.ws-eu46.gitpod.io/)**
+**[LIVE DEMO - Click Here](https://travelblog1.herokuapp.com/)**
 
-![]
+![](screenshot/responsive.PNG)
 
 
   ## Introduction
@@ -224,7 +224,6 @@
   - Python
   - HTML
   - CSS
-  - JavaScript
   
   #### Frameworks, Libraries & Programs Used
 
@@ -285,7 +284,7 @@
    ![](screenshot/contrast.PNG)
 
 
-  ### Bugs found on PEP8 
+  ### Bugs found on PEP8 .............
 
 
 
