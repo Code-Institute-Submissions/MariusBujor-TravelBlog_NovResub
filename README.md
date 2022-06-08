@@ -264,7 +264,7 @@
 
    - Lighthouse Accessability 
   
-    ![](screenshot/accessibility.PNG)
+  ![](screenshot/accessibility.PNG)
 
     
 
