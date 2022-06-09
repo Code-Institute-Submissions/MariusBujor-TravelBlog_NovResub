@@ -17,6 +17,7 @@
       - [Update a Post](#update-a-post)
       - [Comments](#comments)
       - [Site Admin Panel](#site-admin-panel)
+      - [Future Features](#future-features)
       - [Footer](#footer)
     - [Structure](#structure)
       - [Colour Palette](#colour-palette)
@@ -157,6 +158,13 @@
     - I can edit and make changes to posts
 
      [Admin Page - photo ](screenshot/admin.PNG)
+
+  #### Future Features 
+
+  - User profile
+  - Google map - location of the post
+  - Link location to Trip Advisor
+  - Link location to Skyscanner to book a trip.
 
   #### Footer
 
