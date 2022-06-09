@@ -66,7 +66,8 @@
     - upload photos to my posts
   - As a site Admin I can : 
     - edit posts so that I can make changes to the post
-    - filter, approve or disapprove comments
+    - confirm to users that the post is waiting approval
+    - filter, approve or disapprove comments and posts
     - manage my blog content by creating ,reading,updating and deleting posts
     - manage and interact with the blog content as a superuser 
   - As a User/Admin I can :
@@ -124,6 +125,7 @@
 
   - There are 6 post with short content  displayed on the home page 
   - When users are adding more posts a new page will be available by pressing the Next button at the bottom of the page.
+  - Confirm to users with a message that the post is waiting approval from the admin.
 
      [Blog Cards - photo ](screenshot/blog_cards.PNG)
 
