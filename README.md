@@ -138,6 +138,7 @@
   #### Upload New Post
 
   - When a user decide to upload a new post with content and press the New post link a a new section will appear at the bottom of the page where is asked to introduce the content , to upload a photo and press the New Post button to send the post to be approved by the admin.
+  - If a photo will not be uploaded a default photo (logo will appear instead).
 
      [Upload New Post - photo ](screenshot/new_post.PNG)
 
