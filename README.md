@@ -30,7 +30,6 @@
     - [Testing](#testing)
       - [Testing User Stories from User Experience (UX) Section](#testing-user-stories-from-user-experience-ux-section)
       - [Functionality Testing](#functionality-testing)
-    - [Bugs found on PEP8 .............](#bugs-found-on-pep8-)
     - [Deployment](#deployment)
       - [Deploy to Heroku](#deploy-to-heroku)
     - [Credits](#credits)
@@ -284,7 +283,18 @@
    ![](screenshot/contrast.PNG)
 
 
-  ### Bugs found on PEP8 .............
+  * PEP8 - No bugs found
+
+  <details>
+  <summary>Click to see the Screenshots</summary>
+
+  ![](screenshot/pep81.PNG)
+
+  ![](screenshot/pep82.PNG)
+
+  ![](screenshot/pep38.PNG)
+  
+  </details>
 
 
 
