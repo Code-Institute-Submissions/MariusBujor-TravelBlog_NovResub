@@ -37,6 +37,7 @@
       - [Media](#media)
       - [Images, Logo and Video](#images-logo-and-video)
       - [Code](#code)
+      - [Acknowledgements](#acknowledgements)
 
     
 
@@ -378,14 +379,20 @@
   
 #### Code
 
-  [I Think Therefore I Blog ](https://learn.codeinstitute.net/courses/course-v1:CodeInstitute+FST101+2021_T1/courseware/b31493372e764469823578613d11036b/fe4299adcd6743328183aab4e7ec5d13/) by Code Institute as a general resource.
+- [I Think Therefore I Blog ](https://learn.codeinstitute.net/courses/course-v1:CodeInstitute+FST101+2021_T1/courseware/b31493372e764469823578613d11036b/fe4299adcd6743328183aab4e7ec5d13/) by Code Institute as a general resource.
 
-  [Codegrepper](https://www.codegrepper.com/code-examples/python/jinja+get+current+url+django) as a general resource.
+- [Codegrepper](https://www.codegrepper.com/code-examples/python/jinja+get+current+url+django) as a general resource.
 
-  [W3School](https://www.w3schools.com/) as a general resource.
+- [W3School](https://www.w3schools.com/) as a general resource.
+
+#### Acknowledgements
+
+- First of all ,my mentor Martina Terlevic that deserves a big thank you for suport and guidance.
+- As usual the Slack crowd can't be thanked enough. Especially I like to thank to Daniel_C_5p and Mr_Bim_alumni for a lot of tips and encouragement all through this project.
+
 
 
 
   
-     
+  [Back to the top](#table-of-contents)
 
