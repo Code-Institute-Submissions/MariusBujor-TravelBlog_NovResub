@@ -3,5 +3,5 @@ from . import views
 
 
 urlpatterns = [
- path('', views.wish, name="wish")
-],
+ path('', views.create_wish, name="wish_create"),
+]

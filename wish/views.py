@@ -1,6 +1,8 @@
 from django.shortcuts import render
 
-# Create your views here.
 
-def wish(request):
-    return render(request, "wish.html", {})
+def create_wish(request):
+    print('here')
+    return render(request, "wish/wish.html", {})
+
+  
