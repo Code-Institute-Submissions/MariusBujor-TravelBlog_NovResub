@@ -2,6 +2,15 @@
 {% load static %}
 {% block content %}
 
- home
+<div class="container col-5 mt-3 justify-center">
+    <h1 class="text-center">{{user.username}}Wish</h1>
+    <div class="container col-8 mt-5 justify-center">
+        <form  method="POST">
+            {% csrf_token %}
+            <input type="text" name="wish"
+            class="form-control-sm mr-2"
+            placeholder="Wish place to visit"required>
+            <button type="submit" class="btn btn-primary btn-sm">Add Place </button>        
+        </form>
  {% endblock %}
  
