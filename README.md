@@ -16,6 +16,7 @@
       - [Upload New Post](#upload-new-post)
       - [Update a Post](#update-a-post)
       - [Comments](#comments)
+      - [Wish list](#wish-list)
       - [Site Admin Panel](#site-admin-panel)
       - [Future Features](#future-features)
       - [Footer](#footer)
@@ -60,6 +61,8 @@
     - view a paginated list of posts so that easily select a post to view
     - update my profile so that other users can view my details
     - create draft posts and writing the content later
+    - create wish list in bucket list 
+    - I can see my and other users wish list in bucket list 
     - make changes to the post by editing the post
     - remove / delete my post if I want
     - remove / delete a comments from posts if I want
@@ -153,6 +156,12 @@
   - When a user decide to comment a post and press the chosen post a new page will appear where has only the option to add a comment to the post.
 
      [Comments Section - photo ](screenshot/comments.PNG)
+  
+  #### Wish list
+
+  - When a user decide to add a place where he want to go and to see othes wish list is pressing on Bucket list in the navbar.
+
+     [Comments Section - photo ](screenshot/wish.PNG)
 
   #### Site Admin Panel
 
